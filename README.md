@@ -1,1 +1,1 @@
-# CodeIgniter 4 RESTapi Tutorial
+# CodeIgniter 4 RESTapi Server Tutorial
