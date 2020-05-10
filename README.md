@@ -30,7 +30,8 @@ not in use because in the tutorial we created custom Storage driver and used our
 
 ## 3. Time to setup your .env file
 1. Duplicate `env` file and uncomment all `database.default` lines and set you database connection details
-2. Add new line after `database.default.DBDriver = MySQLi` `database.default.DSN = 'mysql:dbname=ADD_YOUR_DB_NAME;host=localhost'`
+2. Add new line after `database.default.DBDriver = MySQLi`
+> database.default.DSN = 'mysql:dbname=ADD_YOUR_DB_NAME;host=localhost'
 3. Uncomment and set app.baseURL
 
 ## 4. Setup your server to point into public folder of CodeIgniter 
