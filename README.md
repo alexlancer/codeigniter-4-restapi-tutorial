@@ -23,9 +23,13 @@ Password: test@alexlancer.com
 not in use because in the tutorial we created custom Storage driver and used our own table for storing the users which is named 'users' instead of the default table 'oauth_users'
 
 
-## 2. Time to setup your .env file
+## 3. Time to setup your .env file
 1. Duplicate `env` file and uncomment all `database.default` lines and set you database connection details
 2. Add new line after `database.default.DBDriver = MySQLi` `database.default.DSN = 'mysql:dbname=ADD_YOUR_DB_NAME;host=localhost'`
 3. Uncomment and set app.baseURL
 
+## 4. Setup your server to point into public folder of CodeIgniter 
+Watch this video: https://www.youtube.com/watch?v=qPefoRbsfMc&t=320s
 
+
+### You're good to GO!!!
