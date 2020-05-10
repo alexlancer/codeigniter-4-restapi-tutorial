@@ -11,12 +11,16 @@ This files has some dummy data such as:
 
 #### In oauth_clients table you already have
 Client id: testclient
+
 Client secret: testsecret
+
 You should change this credentials to your own randomly generated keys
 
 #### In users table you already have
 User: Alex Lancer
+
 Email: test@alexlancer.com
+
 Password: test@alexlancer.com
 
 #### oauth_users
