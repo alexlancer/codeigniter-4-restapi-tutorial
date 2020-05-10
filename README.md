@@ -7,7 +7,8 @@ navigate inside your project folder and run:
 > composer install
 ## 2. Create a database in your phpMyAdmin 
 Once you create your db import restapi.sql 
-This files has some dummy data such as:
+
+This mysql dump has some dummy data such as:
 
 #### In oauth_clients table you already have
 Client id: testclient
