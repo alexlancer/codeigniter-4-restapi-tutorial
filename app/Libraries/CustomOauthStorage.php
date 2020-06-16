@@ -451,12 +451,8 @@ class CustomOauthStorage implements
         $where = ['email' => $email];
         $builder->where($where);
         $user = $builder->get()->getRowArray();
-        // $stmt = $this->db->prepare($sql = sprintf('SELECT * from %s where username=:username', $this->config['user_table']));
-        // $stmt->execute(array('username' => $username));
-        //
-        // if (!$userInfo = $stmt->fetch(\PDO::FETCH_ASSOC)) {
-        //     return false;
-        // }
+        if(!$user)
+            return false;
 
         // the default behavior is to use "username" as the user_id
         return array_merge(array(
